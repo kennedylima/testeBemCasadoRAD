@@ -12,6 +12,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 /**
  *
@@ -27,7 +28,8 @@ public class Teste extends Application {
         Scene scene = new Scene(root);
         
         stage.setScene(scene);
-        
+        //removendo borda do windows.
+        stage.initStyle(StageStyle.UTILITY); 
         stage.show();
         f = stage;
     }

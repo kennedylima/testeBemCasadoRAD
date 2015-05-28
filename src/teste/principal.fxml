@@ -8,19 +8,19 @@
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.shape.*?>
 
-<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1440.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="teste.FXMLDocumentController">
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1440.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="teste.PricipalController">
   <children>
     <MenuBar layoutX="106.0" layoutY="2.0" prefHeight="24.0" prefWidth="1333.8947143554688">
       <menus>
         <Menu mnemonicParsing="false" text="Cadastrar">
           <items>
-            <MenuItem mnemonicParsing="false" text="Cliente" fx:id="usuario" />
+            <MenuItem mnemonicParsing="false" text="Cliente"  />
             <SeparatorMenuItem mnemonicParsing="false" />
             <MenuItem mnemonicParsing="false" text="Tipo de Evento" />
             <SeparatorMenuItem mnemonicParsing="false" />
             <MenuItem mnemonicParsing="false" text="Produto" />
             <SeparatorMenuItem mnemonicParsing="false" />
-            <MenuItem mnemonicParsing="false" text="Usuario" />
+            <MenuItem mnemonicParsing="false" text="Usuario" fx:id="usuario" onAction="#cadastrarUsuario" />
           </items>
         </Menu>
         <Menu mnemonicParsing="false" text="Consultar">

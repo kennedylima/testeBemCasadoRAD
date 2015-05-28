@@ -53,6 +53,7 @@ public class loginController implements Initializable {
                             stage.setMaximized(true);
                             stage.setScene(scene);
                             stage.show();
+                            //fechando a tela de login
                             ((Node) (event.getSource())).getScene().getWindow().hide();
                         } catch (IOException e) {
                             JOptionPane.showMessageDialog(null, e);
@@ -66,7 +67,7 @@ public class loginController implements Initializable {
             }
 
         } else {
-            JOptionPane.showMessageDialog(null, "usuario incorreto");
+            JOptionPane.showMessageDialog(null, "Usuário Incorreto");
         }
 
     }
