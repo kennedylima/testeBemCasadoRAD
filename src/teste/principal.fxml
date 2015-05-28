@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1440.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="teste.FXMLDocumentController">
+  <children>
+    <MenuBar layoutX="106.0" layoutY="2.0" prefHeight="24.0" prefWidth="1333.8947143554688">
+      <menus>
+        <Menu mnemonicParsing="false" text="Cadastrar">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Cliente" fx:id="usuario" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Tipo de Evento" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Produto" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Usuario" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Consultar">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Cliente" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Tipo de Evento" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Produto" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Usuario" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Editar">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Cliente" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Tipo de Evento" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Produto" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Usuario" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Remover">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Cliente" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Tipo de Evento" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Produto" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Usuario" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Pedido">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Cadastrar" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Consultar" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Editar" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" text="Remover" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+    <ImageView fitHeight="24.00000762939453" fitWidth="106.10530313677043" layoutX="0.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@LariMaiaLogo.png" />
+      </image>
+    </ImageView>
+  </children>
+</AnchorPane>

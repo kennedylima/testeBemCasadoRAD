@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" focusTraversable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="407.0000999999975" prefWidth="700.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="teste.loginController">
+  <children>
+    <AnchorPane layoutX="141.0" layoutY="119.0" prefHeight="302.0" prefWidth="419.0">
+      <children>
+        <Label fx:id="user" layoutX="14.0" layoutY="29.0" text="Usuário:">
+          <font>
+            <Font name="System Bold" size="16.0" fx:id="x1" />
+          </font>
+        </Label>
+        <TextField fx:id="txUsuario" layoutX="89.0" layoutY="25.0" prefHeight="30.999900000002526" prefWidth="238.9998779296875" />
+        <Label  font="$x1" layoutX="14.0" layoutY="106.0" text="Senha:" />
+        <PasswordField fx:id="password" layoutX="89.0" layoutY="102.0" prefHeight="30.999900000002526" prefWidth="238.9998779296875" />
+        <Button fx:id="acessar" layoutX="169.0" layoutY="219.0" mnemonicParsing="false" onAction="#acessar" text="Entrar">
+          <font>
+            <Font name="System Bold" size="18.0" />
+          </font>
+        </Button>
+      </children>
+    </AnchorPane>
+    <ImageView fitHeight="69.01408319887908" fitWidth="700.0" layoutX="0.0" layoutY="0.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="file:/C:/Users/Kennedy/Desktop/RAD/LariMaia.png" />
+      </image>
+    </ImageView>
+  </children>
+</AnchorPane>
